@@ -11,30 +11,28 @@ Spécification des lieux permettant le covoiturage
 
 ### Modèle de données
 
-#### Liste des champs
 
-| Champ | Type | Obligatoire | 
+##### Liste des propriétés
+| Propriété | Type | Obligatoire |
 | -- | -- | -- |
-| [id_lieu](#propriété-id_lieu) | chaîne de caractères | Oui |
-| [nom_lieu](#propriété-nom_lieu) | chaîne de caractères | Oui |
-| [ad_lieu ](#propriété-ad_lieu) | chaîne de caractères | Non |
-| [com_lieu](#propriété-com_lieu) | chaîne de caractères | Non |
-| [insee ](#propriété-insee) | chaîne de caractères | Oui |
-| [type](#propriété-type) | chaîne de caractères | Oui |
-| [date_maj](#propriété-date_maj) | date | Oui |
-| [ouvert](#propriété-ouvert) | chaîne de caractères | Non |
-| [source](#propriété-source) | chaîne de caractères | Non |
-| [Xlong](#propriété-Xlong) | nombre réel | Oui |
-| [Ylat](#propriété-Ylat) | nombre réel | Oui |
-| [nbre_pl](#propriété-nbre_pl) | nombre entier | Non |
-| [nb_pmr](#propriété-nb_pmr) | nombre entier | Non |
-| [duree](#propriété-duree) | nombre entier | Non |
-| [horaires](#propriété-horaires) | chaîne de caractères | Non |
-| [proprio](#propriété-proprio) | chaîne de caractères | Non |
-| [lumiere](#propriété-lumiere) | chaîne de caractères | Non |
-| [comm](#propriété-comm) | chaîne de caractères | Non |
-
-
+| [id_lieu](#propriété-id_lieu) | chaîne de caractères  | Oui |
+| [nom_lieu](#propriété-nom_lieu) | chaîne de caractères  | Oui |
+| [ad_lieu](#propriété-ad_lieu) | chaîne de caractères  | Non |
+| [com_lieu](#propriété-com_lieu) | chaîne de caractères  | Non |
+| [insee](#propriété-insee) | chaîne de caractères  | Oui |
+| [type](#propriété-type) | chaîne de caractères  | Oui |
+| [date_maj](#date-de-mise-à-jour-propriété-date_maj) | date (format `%Y-%m-%d`) | Oui |
+| [ouvert](#propriété-ouvert) | booléen  | Oui |
+| [source](#propriété-source) | chaîne de caractères  | Non |
+| [Xlong](#propriété-Xlong) | nombre réel  | Oui |
+| [Ylat](#propriété-Ylat) | nombre réel  | Oui |
+| [nbre_pl](#propriété-nbre_pl) | nombre entier  | Non |
+| [nbre_pmr](#propriété-nbre_pmr) | nombre entier  | Non |
+| [duree](#propriété-duree) | nombre entier  | Non |
+| [horaires](#propriété-horaires) | chaîne de caractères  | Non |
+| [proprio](#mon-super-titre-propriété-proprio) | chaîne de caractères  | Non |
+| [lumiere](#propriété-lumiere) | booléen  | Non |
+| [comm](#propriété-comm) | chaîne de caractères  | Non |
 
 #### Propriété `id_lieu`
 
@@ -82,7 +80,7 @@ Spécification des lieux permettant le covoiturage
     - Délaissé routier
     - Auto-stop
 
-####  Date de mise à jour - Propriété `date_maj`
+#### Date de mise à jour - Propriété `date_maj`
 
 > *Description : Date de dernière mise à jour des données. Notation ISO 8601, format AAAA-MM-DD<br/>Ex : 2016-10-31*
 - Valeur obligatoire
@@ -142,7 +140,7 @@ Spécification des lieux permettant le covoiturage
 - Valeur optionnelle
 - Type : chaîne de caractères
 
-#### Propriété `proprio`
+#### Mon super titre - Propriété `proprio`
 
 > *Description : Le nom de l'aménageur, c'est-à-dire de l'entité publique ou privée propriétaire des infrastructures<br/>Ex : Département*
 - Valeur optionnelle
