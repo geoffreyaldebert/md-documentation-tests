@@ -15,24 +15,24 @@ Spécification des lieux permettant le covoiturage
 
 | Champ | Obligatoire |
 | -- | -- | 
-| [id_lieu](#Propriété%20id_lieu) | Oui |
-| [nom_lieu](#Propriété%20nom_lieu) | Oui |
-| [ad_lieu ](#Propriété%20ad_lieu) | Non |
-| [com_lieu](#Propriété%20com_lieu) | Non |
-| [insee ](#Propriété%20insee) | Oui |
-| [type](#Propriété%20type) | Oui |
-| [date_maj](#Propriété%20date_maj) | Oui |
-| [ouvert](#Propriété%20ouvert) | Non |
-| [source](#Propriété%20source) | Non |
-| [Xlong](#Propriété%20Xlong) | Oui |
-| [Ylat](#Propriété%20Ylat) | Oui |
-| [nbre_pl](#Propriété%20nbre_pl) | Non |
-| [nb_pmr](#Propriété%20nb_pmr) | Non |
-| [duree](#Propriété%20duree) | Non |
-| [horaires](#Propriété%20horaires) | Non |
-| [proprio](#Propriété%20proprio) | Non |
-| [lumiere](#Propriété%20lumiere) | Non |
-| [comm](#Propriété%20comm) | Non |
+| [id_lieu](#propriété-id_lieu) | Oui |
+| [nom_lieu](#propriété-nom_lieu) | Oui |
+| [ad_lieu ](#propriété-ad_lieu) | Non |
+| [com_lieu](#propriété-com_lieu) | Non |
+| [insee ](#propriété-insee) | Oui |
+| [type](#propriété-type) | Oui |
+| [date_maj](#propriété-date_maj) | Oui |
+| [ouvert](#propriété-ouvert) | Non |
+| [source](#propriété-source) | Non |
+| [Xlong](#propriété-Xlong) | Oui |
+| [Ylat](#propriété-Ylat) | Oui |
+| [nbre_pl](#propriété-nbre_pl) | Non |
+| [nb_pmr](#propriété-nb_pmr) | Non |
+| [duree](#propriété-duree) | Non |
+| [horaires](#propriété-horaires) | Non |
+| [proprio](#propriété-proprio) | Non |
+| [lumiere](#propriété-lumiere) | Non |
+| [comm](#propriété-comm) | Non |
 
 
 
