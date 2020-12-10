@@ -21,14 +21,14 @@ Spécification des lieux permettant le covoiturage
 | [com_lieu](#propriété-com_lieu) | chaîne de caractères | Non |
 | [insee ](#propriété-insee) | chaîne de caractères | Oui |
 | [type](#propriété-type) | chaîne de caractères | Oui |
-| [date_maj](#propriété-date_maj) | chaîne de caractères | Oui |
+| [date_maj](#propriété-date_maj) | date | Oui |
 | [ouvert](#propriété-ouvert) | chaîne de caractères | Non |
 | [source](#propriété-source) | chaîne de caractères | Non |
-| [Xlong](#propriété-Xlong) | chaîne de caractères | Oui |
-| [Ylat](#propriété-Ylat) | chaîne de caractères | Oui |
-| [nbre_pl](#propriété-nbre_pl) | chaîne de caractères | Non |
-| [nb_pmr](#propriété-nb_pmr) | chaîne de caractères | Non |
-| [duree](#propriété-duree) | chaîne de caractères | Non |
+| [Xlong](#propriété-Xlong) | nombre réel | Oui |
+| [Ylat](#propriété-Ylat) | nombre réel | Oui |
+| [nbre_pl](#propriété-nbre_pl) | nombre entier | Non |
+| [nb_pmr](#propriété-nb_pmr) | nombre entier | Non |
+| [duree](#propriété-duree) | nombre entier | Non |
 | [horaires](#propriété-horaires) | chaîne de caractères | Non |
 | [proprio](#propriété-proprio) | chaîne de caractères | Non |
 | [lumiere](#propriété-lumiere) | chaîne de caractères | Non |
