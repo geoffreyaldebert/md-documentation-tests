@@ -13,26 +13,26 @@ Spécification des lieux permettant le covoiturage
 
 #### Liste des champs
 
-| Champ | Obligatoire |
-| -- | -- | 
-| [id_lieu](#propriété-id_lieu) | Oui |
-| [nom_lieu](#propriété-nom_lieu) | Oui |
-| [ad_lieu ](#propriété-ad_lieu) | Non |
-| [com_lieu](#propriété-com_lieu) | Non |
-| [insee ](#propriété-insee) | Oui |
-| [type](#propriété-type) | Oui |
-| [date_maj](#propriété-date_maj) | Oui |
-| [ouvert](#propriété-ouvert) | Non |
-| [source](#propriété-source) | Non |
-| [Xlong](#propriété-Xlong) | Oui |
-| [Ylat](#propriété-Ylat) | Oui |
-| [nbre_pl](#propriété-nbre_pl) | Non |
-| [nb_pmr](#propriété-nb_pmr) | Non |
-| [duree](#propriété-duree) | Non |
-| [horaires](#propriété-horaires) | Non |
-| [proprio](#propriété-proprio) | Non |
-| [lumiere](#propriété-lumiere) | Non |
-| [comm](#propriété-comm) | Non |
+| Champ | Type | Obligatoire | 
+| -- | -- | -- |
+| [id_lieu](#propriété-id_lieu) | chaîne de caractères | Oui |
+| [nom_lieu](#propriété-nom_lieu) | chaîne de caractères | Oui |
+| [ad_lieu ](#propriété-ad_lieu) | chaîne de caractères | Non |
+| [com_lieu](#propriété-com_lieu) | chaîne de caractères | Non |
+| [insee ](#propriété-insee) | chaîne de caractères | Oui |
+| [type](#propriété-type) | chaîne de caractères | Oui |
+| [date_maj](#propriété-date_maj) | chaîne de caractères | Oui |
+| [ouvert](#propriété-ouvert) | chaîne de caractères | Non |
+| [source](#propriété-source) | chaîne de caractères | Non |
+| [Xlong](#propriété-Xlong) | chaîne de caractères | Oui |
+| [Ylat](#propriété-Ylat) | chaîne de caractères | Oui |
+| [nbre_pl](#propriété-nbre_pl) | chaîne de caractères | Non |
+| [nb_pmr](#propriété-nb_pmr) | chaîne de caractères | Non |
+| [duree](#propriété-duree) | chaîne de caractères | Non |
+| [horaires](#propriété-horaires) | chaîne de caractères | Non |
+| [proprio](#propriété-proprio) | chaîne de caractères | Non |
+| [lumiere](#propriété-lumiere) | chaîne de caractères | Non |
+| [comm](#propriété-comm) | chaîne de caractères | Non |
 
 
 
